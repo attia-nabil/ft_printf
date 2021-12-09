@@ -42,14 +42,16 @@ SRC =   ft_memset.c     \
 
 
 OBJECTS = $(SRC:.c=.o)
+HEADER	=	../../include/libft.h
+INCLUDE	=	../../include
 
 all: $(NAME)
 
-$(NAME): $(OBJECTS) libft.h
+$(NAME): $(OBJECTS) $(HEADER)
 	ar rcs $(NAME) $(OBJECTS)
 
 %.o : %.c
-	$(CC) $(CFLAGS) -o $@ -c $<
+	$(CC) $(CFLAGS) -I $(INCLUDE) -o $@ -c $<
 
 clean:
 	rm -rf $(OBJECTS)
