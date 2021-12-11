@@ -8,6 +8,8 @@ Ft_printf (42cursus) 2021-2022
 - Result        : 100%
 - Observations : NULL
 
+![Capture](https://user-images.githubusercontent.com/78090806/145681644-f6ef6132-3b58-4438-9ab5-7580c18e4ee1.PNG)
+
 ## Features
 
 Supports all these converters, flags and modifiers:
