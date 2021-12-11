@@ -1,2 +1,40 @@
-# printf
-Résumé: Ce projet est clair et efficace. Vous devez recoder printf. Avec un peu de chance, vous serez en mesure de le réutiliser dans des projets futurs sans la crainte d’être considéré comme un tricheur. Vous apprendrez principalement à utiliser les arguments variadiques.
+# ft_printf
+
+This project is a copy of the original printf function of C langage.
+
+Ft_printf (42cursus) 2021-2022
+
+- Actual Status : finished.
+- Result        : 100%
+- Observations : NULL
+
+## Features
+
+Supports all these converters, flags and modifiers:
+
+ Type        | Name
+------------ | -------------------------------------------------------------------------------
+ Converters  |  %d / %s / %p / %i / %u / %x / %X / %c/ %%
+ Flags       |  * / 0 / - / .
+
+
+## Compilation
+
+Run `make` command to compile the libftprintf library.
+
+## Usage
+
+Compile your project with libftprintf.a.
+Don't forget to include "ft_printf.h"
+
+To compile with the repository main:
+```
+gcc -Wall -Werror -Wextra main.c libftprintf.a 
+```
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+This is my ft_printf project from the 42 cursus (1337),
+need help:
+nattia@student.1337.ma
