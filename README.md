@@ -33,7 +33,6 @@ To compile with the repository main:
 ```
 gcc -Wall -Werror -Wextra main.c libftprintf.a 
 ```
-
 ### Some examples
 ```C
 int main(void)
